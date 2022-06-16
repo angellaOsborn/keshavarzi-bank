@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(216, 197, 147);
+}
+.tittle , .title2 , .logo , .p , .form , .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 p {
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.logo , .p , .card-body{
+    margin-top: 25px;
+}
+.logo img {
+    width: 270px;
+    height: 270px;
+    box-shadow: 3px 3px 8px white,
+    -3px -3px 8px white;
+}
+
+.p p {
+    font-size: 30px;
+}
+
+.form input {
+    padding: 12px 50px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(241, 239, 233, 0.984);
+    outline: none;
+    box-shadow: -1px 3px 7px rgb(123, 123, 121);
+}
+
+.card { 
+    position: relative;
+    background-color: rgba(226, 136, 243, 0.772);
+    width: 400px;
+    height: 237px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(111, 110, 110) ,
+    -1px -1px 8px rgb(125, 123, 123);
+    margin-right: -890px;
+    transition: all 3s ease;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.map {
+    margin-top: 5px;
+    margin-right: 20px;
+    position: relative;
+}
+.map img {
+    width: 90px;
+    height: 80px;
+}
+.map #logo {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    right: 20px;
+    top: 18px;
+}
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    color: rgb(20, 76, 2);
+    font-size: 13px;
+    font-weight: 900;
+}
+.subtitle #small {
+    position: absolute;
+    right: -10%;
+    top: 100%;
+    width: 200px;
+}
+
+.shetab {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.shetab img {
+    width: 45px;
+    height: 30px;
+}
+
+.shaba {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.card-number .number {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.name {
+    margin-top: -15px;
+}
+.name p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 80px;
+}
+
+.dats {
+    margin-top: -10px;
+}
+.dats ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+
+
+
+.arrow {
+    position: absolute;
+    left: 2px;
+    top: 80px;
+}
+.arrow img {
+    width: 40px;
+    height: 40px;
+}
+
+.error {
+    color: rgba(241, 68, 68, 0.788);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+@media (max-width : 500px) {
+    .p p {
+        font-size: 17px;
+    }
+    .dats ul {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .card {
+        margin-left: 10px;
+        height: 230px;
+    }  
+}
+@media (min-width: 499px) {
+    .card {
+        margin-right: -1925px;
+    }
+}
